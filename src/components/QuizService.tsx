@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://opentdb.com/api.php";
+const API_URL = "https://opentdb.com/api.php?amount=10";
 
 export interface Question {
   question: string;
